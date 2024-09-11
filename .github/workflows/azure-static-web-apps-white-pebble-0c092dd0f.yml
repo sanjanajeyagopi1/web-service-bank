@@ -28,6 +28,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/" # App source code path
+          api_location: "" # API source code path - optional
           output_location: "build" # Built app content directory - optional
 
   close_pull_request_job:
